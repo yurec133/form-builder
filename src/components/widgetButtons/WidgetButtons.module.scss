@@ -1,0 +1,11 @@
+@import "src/themes/styles/variables.scss";
+.widgetBtn {
+  display: flex;
+  position: absolute;
+  right: -34px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: map_get($color-secondary, 100);
+  z-index: 10;
+  flex-direction: column;
+}

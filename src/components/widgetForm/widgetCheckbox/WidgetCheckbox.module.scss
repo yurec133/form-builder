@@ -1,0 +1,30 @@
+.checkboxFrame {
+  padding: 0 10px;
+
+  .checkboxGroup {
+    padding-bottom: 10px;
+  }
+  .checkboxRow {
+    position: relative;
+    padding-right: 20px;
+    .radioPanel {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:hover {
+      .radioPanel {
+        display: flex;
+      }
+    }
+  }
+  .inputEdit {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 72px;
+  }
+}

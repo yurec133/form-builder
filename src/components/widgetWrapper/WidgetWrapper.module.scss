@@ -1,0 +1,20 @@
+.gridContainer {
+  justify-content: center;
+  padding: 0 !important;
+}
+
+.grid {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  overflow: hidden;
+
+  .gridItem {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .gridItem:first-of-type {
+    border-left: transparent;
+  }
+  :global(.MuiGrid2-grid-md-12) {
+    border-left: transparent;
+  }
+}

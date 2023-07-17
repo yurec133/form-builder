@@ -1,0 +1,15 @@
+@import "src/themes/styles/variables.scss";
+.widget {
+  height: 100%;
+  position: relative;
+  background: #fff;
+  cursor: move;
+
+  .frame {
+    padding: 8px 4px;
+  }
+  &.widgetActive {
+    //box-shadow: inset 0 0 0 1px map_get($color-secondary, 300);
+    background: map_get($color-secondary, 100);
+  }
+}
